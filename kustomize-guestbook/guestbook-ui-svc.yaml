@@ -4,11 +4,10 @@ metadata:
   name: guestbook-ui
   namespace: default
 spec:
-  type: NodePort
   selector:
     app: guestbook-ui
   ports:
-    - protocol: TCP
-      port: 80
+    - port: 80
       targetPort: 80
-      nodePort: 31000 # NodePort는 특정 포트로 지정할 수도 있습니다.
+      
+     
