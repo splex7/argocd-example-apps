@@ -11,4 +11,4 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 80
-      nodePort: 30001 # NodePort는 특정 포트로 지정할 수도 있습니다.
+      nodePort: 31000 # NodePort는 특정 포트로 지정할 수도 있습니다.
