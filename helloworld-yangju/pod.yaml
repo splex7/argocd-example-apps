@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: argocd-helloworld
+  name: yangju-helloworld
   labels:
-    name: argocd-helloworld
+    name: yangju-helloworld
 spec:
   containers:
-  - name: argocd-helloworld
+  - name: yangju-helloworld
     image: nginx
     resources:
       limits:
