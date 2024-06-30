@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/splex7/argocd-example-apps.git
     targetRevision: HEAD
-    path: guestbook
+    path: helloworld-yangju
   destination:
     server: https://kubernetes.default.svc
     namespace: default
